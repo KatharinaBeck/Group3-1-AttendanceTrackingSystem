@@ -1,0 +1,58 @@
+{
+  "Group": [
+    {
+      "GroupNumber": "1",
+      "GroupMaxSize": "32",
+      "GroupDay": "Mo",
+      "GroupTimeStart": "09:00",
+      "GroupTimeEnd": "11:00",
+      "GroupRoom": "01.11.018",
+      "GroupTutor": "Ana"
+    },
+    {
+      "GroupNumber": "2",
+      "GroupMaxSize": "32",
+      "GroupDay": "Mo",
+      "GroupTimeStart": "13:45",
+      "GroupTimeEnd": "15:15",
+      "GroupRoom": "01.11.018",
+      "GroupTutor": "Sebastian"
+    },
+    {
+      "GroupNumber": "3",
+      "GroupMaxSize": "32",
+      "GroupDay": "Mo",
+      "GroupTimeStart": "15:15",
+      "GroupTimeEnd": "16:45",
+      "GroupRoom": "01.11.018",
+      "GroupTutor": "Sebastian"
+    },
+    {
+      "GroupNumber": "4",
+      "GroupMaxSize": "32",
+      "GroupDay": "Di",
+      "GroupTimeStart": "15:00",
+      "GroupTimeEnd": "17:00",
+      "GroupRoom": "01.11.018",
+      "GroupTutor": "Ehsan"
+    },
+    {
+      "GroupNumber": "5",
+      "GroupMaxSize": "20",
+      "GroupDay": "Mi",
+      "GroupTimeStart": "10:00",
+      "GroupTimeEnd": "12:00",
+      "GroupRoom": "00.11.038",
+      "GroupTutor": "Mohsen"
+    },
+    {
+      "GroupNumber": "6",
+      "GroupMaxSize": "32",
+      "GroupDay": "Mi",
+      "GroupTimeStart": "12:00",
+      "GroupTimeEnd": "14:00",
+      "GroupRoom": "01.11.018",
+      "GroupTutor": "Saahil"
+    }
+  ]
+}
