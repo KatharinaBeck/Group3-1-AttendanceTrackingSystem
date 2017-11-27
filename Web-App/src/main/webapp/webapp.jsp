@@ -5,8 +5,8 @@
 <%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
 
 <%-- //[START imports]--%>
-<%@ page import="com.example.guestbook.Greeting" %>
-<%@ page import="com.example.guestbook.Guestbook" %>
+<%@ page import="com.webapp.Student" %>
+<%-- page import="com.example.guestbook.Guestbook" --%> 
 <%@ page import="com.googlecode.objectify.Key" %>
 <%@ page import="com.googlecode.objectify.ObjectifyService" %>
 <%-- //[END imports]--%>
@@ -21,14 +21,12 @@
 
 <body>
 
+<%-- USER LOGIN OR LOGOUT --%>
 <%
-    String guestbookName = request.getParameter("guestbookName");
-    if (guestbookName == null) {
-        guestbookName = "default";
-    }
-    pageContext.setAttribute("guestbookName", guestbookName);
+    
     UserService userService = UserServiceFactory.getUserService();
     User user = userService.getCurrentUser();
+    
     if (user != null) {
         pageContext.setAttribute("user", user);
 %>
